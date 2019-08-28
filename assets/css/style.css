@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    list-style: none;
+    
+}
+
+
+.navbar{
+    background-color: #3c008c;
+}
+
+.nav_span{
+    font-size: 0.7em;
+    color: #ffff;
+}
+
+nav a{
+    color: #ffff;
+}
+
+a:hover{
+    color: #ab3bdd;
+}
+
+.custom-toggler.navbar-toggler{
+    border-color: #ab3bdd;
+}
+
+
+.container-fluid{
+    padding: 0;
+    background-color: #3c008c;
+}
+
+/* section#curriculo.offer{
+    background-color: #3c008c;
+} */
+
+.section-title{
+    color: #ffff;
+    font-weight: bold;
+}
+
+
+section.main-content{
+    background-image: url('../img/bg_header.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.curriculo-item{
+    color: #ffff;
+    padding: 3px auto;
+}
+
+.carousel-indicators li{
+    background-color: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+#carouselSambar h5 p{
+    color: #3c008c;
+}
